@@ -5,7 +5,8 @@
         "typo3/cms-tstemplate": "^9.5",
         "typo3/cms-fluid-styled-content": "^9.5",
         "typo3/cms-rte-ckeditor": "^9.5",
-        "typo3/cms-scheduler": "^9.5"
+        "typo3/cms-scheduler": "^9.5",
+        "typo3/cms-felogin": "^9.5"
     },
     "repositories": [
         {

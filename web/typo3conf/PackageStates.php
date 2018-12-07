@@ -38,6 +38,9 @@ return [
         'extensionmanager' => [
             'packagePath' => 'typo3/sysext/extensionmanager/',
         ],
+        'felogin' => [
+            'packagePath' => 'typo3/sysext/felogin/',
+        ],
         'filelist' => [
             'packagePath' => 'typo3/sysext/filelist/',
         ],
