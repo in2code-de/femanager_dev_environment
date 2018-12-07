@@ -1,0 +1,7 @@
+vendor/
+var/
+web/fileadmin/
+web/typo3/
+web/typo3temp/
+web/index.php
+web/typo3conf/ext/
