@@ -1,5 +1,5 @@
 APIVersion: v1.2.0
-name: femanager.local
+name: femanager
 type: typo3
 docroot: web
 php_version: "7.2"
