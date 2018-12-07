@@ -1,0 +1,22 @@
+{
+    "require": {
+        "typo3/minimal": "^9.5",
+        "in2code/femanager": "dev-feature/33013-support-typo3-9",
+        "typo3/cms-tstemplate": "^9.5",
+        "typo3/cms-fluid-styled-content": "^9.5",
+        "typo3/cms-rte-ckeditor": "^9.5",
+        "typo3/cms-scheduler": "^9.5"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/in2code-de/femanager.git"
+        }
+   ],
+    "extra": {
+        "typo3/cms": {
+            "web-dir": "web",
+            "cms-package-dir": "{$vendor-dir}/typo3/cms"
+        }
+    }
+}
