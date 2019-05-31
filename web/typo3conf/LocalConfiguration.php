@@ -6,7 +6,7 @@ return [
         'installToolPassword' => '$argon2i$v=19$m=16384,t=16,p=2$Q1FpS1F6UGhpNWpRMzBlWQ$+mZPciqoxx9sIOmPx6Yvq1OyXbIsuJ5G7athwLKET9Y',
         'loginSecurityLevel' => 'normal',
         'passwordHashing' => [
-            'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
+            'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\BcryptPasswordHash',
             'options' => [],
         ],
     ],
@@ -22,8 +22,9 @@ return [
         'extConf' => [
             'backend' => 'a:6:{s:14:"backendFavicon";s:0:"";s:11:"backendLogo";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:13:"loginFootnote";s:0:"";s:19:"loginHighlightColor";s:0:"";s:9:"loginLogo";s:0:"";}',
             'extensionmanager' => 'a:2:{s:21:"automaticInstallation";s:1:"1";s:11:"offlineMode";s:1:"0";}',
-            'femanager' => 'a:4:{s:10:"disableLog";s:1:"0";s:13:"disableModule";s:1:"0";s:24:"enableConfirmationModule";s:1:"0";s:16:"setCookieOnLogin";s:1:"0";}',
+            'femanager' => 'a:4:{s:10:"disableLog";s:1:"0";s:13:"disableModule";s:1:"0";s:24:"enableConfirmationModule";s:1:"1";s:16:"setCookieOnLogin";s:1:"0";}',
             'scheduler' => 'a:2:{s:11:"maxLifetime";s:4:"1440";s:15:"showSampleTasks";s:1:"1";}',
+            't3am' => 'a:4:{s:6:"server";s:22:"https://www.in2code.de";s:5:"token";s:40:"a6ef8bcd30611c49a6d14b587b4ad6e9877e1abf";s:12:"avatarFolder";s:10:"1:/avatar/";s:10:"selfSigned";s:1:"0";}',
         ],
     ],
     'EXTENSIONS' => [
@@ -42,19 +43,25 @@ return [
         'femanager' => [
             'disableLog' => '0',
             'disableModule' => '0',
-            'enableConfirmationModule' => '0',
+            'enableConfirmationModule' => '1',
             'setCookieOnLogin' => '0',
         ],
         'scheduler' => [
             'maxLifetime' => '1440',
             'showSampleTasks' => '1',
         ],
+        't3am' => [
+            'avatarFolder' => '1:/avatar/',
+            'selfSigned' => '0',
+            'server' => 'https://www.in2code.de',
+            'token' => 'a6ef8bcd30611c49a6d14b587b4ad6e9877e1abf',
+        ],
     ],
     'FE' => [
         'debug' => true,
         'loginSecurityLevel' => 'normal',
         'passwordHashing' => [
-            'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
+            'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\BcryptPasswordHash',
             'options' => [],
         ],
     ],
@@ -88,6 +95,7 @@ return [
         'systemMaintainers' => [
             1,
             4,
+            5,
         ],
     ],
 ];

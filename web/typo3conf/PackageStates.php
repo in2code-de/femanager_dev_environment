@@ -35,6 +35,15 @@ return [
         'backend' => [
             'packagePath' => 'typo3/sysext/backend/',
         ],
+        'about' => [
+            'packagePath' => 'typo3/sysext/about/',
+        ],
+        'belog' => [
+            'packagePath' => 'typo3/sysext/belog/',
+        ],
+        'beuser' => [
+            'packagePath' => 'typo3/sysext/beuser/',
+        ],
         'extensionmanager' => [
             'packagePath' => 'typo3/sysext/extensionmanager/',
         ],
@@ -44,6 +53,9 @@ return [
         'filelist' => [
             'packagePath' => 'typo3/sysext/filelist/',
         ],
+        'lowlevel' => [
+            'packagePath' => 'typo3/sysext/lowlevel/',
+        ],
         'rte_ckeditor' => [
             'packagePath' => 'typo3/sysext/rte_ckeditor/',
         ],
@@ -52,6 +64,9 @@ return [
         ],
         'femanager' => [
             'packagePath' => 'typo3conf/ext/femanager/',
+        ],
+        't3am' => [
+            'packagePath' => 'typo3conf/ext/t3am/',
         ],
     ],
     'version' => 5,
