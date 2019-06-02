@@ -1,6 +1,11 @@
 vendor/
 var/
-web/fileadmin/
+!web/fileadmin
+web/fileadmin/*
+!web/fileadmin/femanager
+!web/fileadmin/user_upload
+!web/fileadmin/users
+!web/fileadmin/users_changed
 web/typo3/
 web/typo3temp/
 web/index.php
