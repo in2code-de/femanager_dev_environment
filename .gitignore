@@ -11,3 +11,4 @@ web/typo3temp/
 web/index.php
 web/typo3conf/ext/
 .idea/
+/.ddev/auth.json
