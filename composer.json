@@ -2,7 +2,7 @@
     "require": {
         "typo3/minimal": "^9.5",
         "in2code/femanager": "dev-develop",
-        "in2code/t3am": "dev-typo3-v9",
+        "in2code/t3am": "^2.0",
         "typo3/cms-tstemplate": "^9.5",
         "typo3/cms-fluid-styled-content": "^9.5",
         "typo3/cms-rte-ckeditor": "^9.5",
