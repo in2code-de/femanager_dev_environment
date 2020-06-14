@@ -34,7 +34,10 @@
         "typo3/cms-sys-note": "^10",
         "typo3/cms-t3editor": "^10",
         "typo3/cms-viewpage": "^10",
-        "helhum/typo3-console": "dev-develop"
+        "helhum/typo3-console": "dev-develop",
+        "in2code/femanager": "dev-v10-support",
+        "phpunit/phpunit": "^8.5",
+        "typo3/testing-framework": "^6.3"
     },
     "repositories": [
         {

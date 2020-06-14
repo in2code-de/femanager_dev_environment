@@ -65,9 +65,6 @@ return [
         'femanager' => [
             'packagePath' => 'typo3conf/ext/femanager/',
         ],
-        't3am' => [
-            'packagePath' => 'typo3conf/ext/t3am/',
-        ],
     ],
     'version' => 5,
 ];
